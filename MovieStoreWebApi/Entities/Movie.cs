@@ -3,7 +3,7 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace MovieStoreWebApi.Entities
 {
-    public class Movie
+    public class Movie  //
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
