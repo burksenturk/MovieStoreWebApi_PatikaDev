@@ -2,7 +2,7 @@
 
 namespace MovieStoreWebApi.Entities
 {
-    public class Director
+    public class Director //
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
